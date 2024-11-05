@@ -55,12 +55,6 @@ build CMakeFiles/Parcial-1-CCM.dir/main.cpp.obj: CXX_COMPILER__Parcial-1-CCM_uns
   OBJECT_DIR = CMakeFiles\Parcial-1-CCM.dir
   OBJECT_FILE_DIR = CMakeFiles\Parcial-1-CCM.dir
 
-build CMakeFiles/Parcial-1-CCM.dir/operaciones/operaciones.cpp.obj: CXX_COMPILER__Parcial-1-CCM_unscanned_Debug C$:/Users/carlo/OneDrive/Documentos/GitHub/Parcial-1-CCM/operaciones/operaciones.cpp || cmake_object_order_depends_target_Parcial-1-CCM
-  DEP_FILE = CMakeFiles\Parcial-1-CCM.dir\operaciones\operaciones.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Parcial-1-CCM.dir
-  OBJECT_FILE_DIR = CMakeFiles\Parcial-1-CCM.dir\operaciones
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Parcial-1-CCM
@@ -69,7 +63,7 @@ build CMakeFiles/Parcial-1-CCM.dir/operaciones/operaciones.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable Parcial-1-CCM.exe
 
-build Parcial-1-CCM.exe: CXX_EXECUTABLE_LINKER__Parcial-1-CCM_Debug CMakeFiles/Parcial-1-CCM.dir/main.cpp.obj CMakeFiles/Parcial-1-CCM.dir/operaciones/operaciones.cpp.obj
+build Parcial-1-CCM.exe: CXX_EXECUTABLE_LINKER__Parcial-1-CCM_Debug CMakeFiles/Parcial-1-CCM.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Parcial-1-CCM.dir

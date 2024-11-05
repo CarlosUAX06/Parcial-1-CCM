@@ -1,5 +1,5 @@
 #include<iostream>
-#include "operaciones/operaciones.h"
+
 
 using namespace std;
 
@@ -67,7 +67,7 @@ int main()
         break;
 
     default :
-        cout<<"Ingresa un numero del 1 al 7";
+        cout<<"Ingresa un numero del 1 al 7"<<endl;
 
     }
 
@@ -75,37 +75,27 @@ int main()
     cout<<"            EJERCICIO_3            "<<endl;
     cout<<"-----------------------------------"<<endl;
 
-    int a, b, c, d, e, f, g, h;
+    int suma = 0, n, *p;
 
-    cout<<"Ingrese la nota 1: ";
-    cin>>a;
+    cout<<"Introduce el numero de tareas: "; std::cin>>n;
+    p = new int[n];
+    for(int z_6=0; z_6<n; z_6++){
+        cout<<"Introduce la nota "<<z_6+1<<": ";
+        cin>>p[z_6];
+        suma += p[z_6];
+    }
 
-    cout<<"Ingrese la nota 2: ";
-    cin>>b;
+    cout<<"Elementos introducidos: ";
 
-    cout<<"Ingrese la nota 3: ";
-    cin>>c;
+    for(int z_6=0; z_6<n; z_6++) {
+        cout<<p[z_6]<<",";
 
-    cout<<"Ingrese la nota 4: ";
-    cin>>d;
+    }
+    cout<<"Total: "<<suma<<endl;
+    cout<<"Media: "<<(double)suma/n<<endl;
+    delete[]p;
 
-    cout<<"Ingrese la nota 5: ";
-    cin>>e;
 
-    cout<<"Ingrese la nota 6: ";
-    cin>>f;
-
-    cout<<"Ingrese la nota 7: ";
-    cin>>g;
-
-    cout<<"Ingrese la nota 8: ";
-    cin>>h;
-
-    //cout<<"El promedio de las notas es: "<<promedio(a, b, c, d, e, f, g, h)<<endl;
-    //
-    //Lo escribo a modo de comentario porque no se puede ejcutar.Debido
-    //a que por alguna razón no se incluye la función promedio que se
-    //encuentra en operaciones.h.
 
     cout<<"-----------------------------------"<<endl;
     cout<<"            EJERCICIO_4            "<<endl;
