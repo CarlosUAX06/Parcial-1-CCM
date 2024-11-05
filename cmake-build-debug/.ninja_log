@@ -1,5 +1,6 @@
 # ninja log v6
-4	251	7525028602314578	CMakeFiles/Parcial-1-CCM.dir/main.cpp.obj	ce7761e59af04fc5
-253	395	7525028604812615	Parcial-1-CCM.exe	1666a1273d32715
 6	278	7525034258169137	CMakeFiles/Parcial-1-CCM.dir/main.cpp.obj	ce7761e59af04fc5
 279	380	7525034260900009	Parcial-1-CCM.exe	1666a1273d32715
+29	92	7525064626007631	CMakeFiles/Parcial-1-CCM.dir/operaciones/operaciones.cpp.obj	87470c35c13e0151
+22	299	7525064625946456	CMakeFiles/Parcial-1-CCM.dir/main.cpp.obj	ce7761e59af04fc5
+299	434	7525064628713245	Parcial-1-CCM.exe	c9ee3d5fbf985e0

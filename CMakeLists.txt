@@ -5,4 +5,6 @@ project(Parcial-1-CCM)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Parcial-1-CCM
-        main.cpp)
+        main.cpp
+        operaciones/operaciones.h
+        operaciones/operaciones.cpp)
