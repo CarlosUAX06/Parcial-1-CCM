@@ -95,6 +95,8 @@ int main()
     cout<<"Media: "<<(double)suma/n<<endl;
     delete[]p;
 
+    //Este código ya lo tenia hecho desde casa
+
 
 
     cout<<"-----------------------------------"<<endl;
